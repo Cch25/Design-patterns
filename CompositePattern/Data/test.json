@@ -1,0 +1,118 @@
+[
+  {
+    "fileName": "Depth 0",
+    "value": "4",
+    "folders": [
+      {
+        "fileName": "Depth 1",
+        "value": "3",
+        "folders": [
+          {
+            "fileName": "Depth 2",
+            "value": "2",
+            "folders": [
+              {
+                "fileName": "Depth 3",
+                "value": "1",
+                "folders": []
+              },
+              {
+                "fileName": "Depth 3.1",
+                "value": "2",
+                "folders": [
+                  {
+                    "fileName": "Depth 3.1.1",
+                    "value": "1",
+                    "folders": [
+                      {
+                        "fileName": "Depth 3.1.1.1",
+                        "value": "0",
+                        "folders": []
+                      }
+                    ]
+                  },
+                  {
+                    "fileName": "Depth 3.1.2",
+                    "value": "2",
+                    "folders": []
+                  }
+                ]
+              },
+              {
+                "fileName": "Depth 3.2",
+                "value": "1",
+                "folders": []
+              }
+            ]
+          },
+          {
+            "fileName": "fileOO",
+            "value": "0",
+            "folders": []
+          }
+        ]
+      },
+      {
+        "fileName": "FileTwo",
+        "value": "0",
+        "folders": []
+      },
+      {
+        "fileName": "FileThree",
+        "value": "0",
+        "folders": []
+      }
+    ]
+  },
+  {
+    "fileName": "FileTwoBase",
+    "value": "0",
+    "folders": [
+      {
+        "fileName": "FileFFF",
+        "value": "0",
+        "folders": [
+          {
+            "fileName": "FFFF",
+            "value": "0",
+            "folders": [
+              {
+                "fileName": "FFFFF",
+                "value": "0",
+                "folders": [
+                  {
+                    "fileName": "FFFFFFF",
+                    "value": "0",
+                    "folders": [
+                      {
+                        "fileName": "FFFFFFFFFFF",
+                        "value": "0",
+                        "folders": [
+                          {
+                            "fileName": "Leaf",
+                            "value": "0",
+                            "folders": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "fileName": "FileFFFF",
+        "value": "0",
+        "folders": []
+      },
+      {
+        "fileName": "FFF",
+        "value": "0",
+        "folders": []
+      }
+    ]
+  }
+]
