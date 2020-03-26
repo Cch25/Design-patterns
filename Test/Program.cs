@@ -1,6 +1,7 @@
 ﻿using Bridge;
 using Builder;
 using ChainOfResponsibility;
+using Command.Command;
 using CompositePattern;
 using Decorator;
 using ElvisOperator;
@@ -65,6 +66,10 @@ namespace DesignPatterns
             //decoratorPattern.SquareDecorator(5);
             #endregion
 
+            #region [ Command pattern ]
+            //CommandPattern commandPattern = new CommandPattern();
+            //commandPattern.Command();
+            #endregion
         }
     }
 }

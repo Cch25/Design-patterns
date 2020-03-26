@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceLocator", "ServiceLo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElvisOperator", "ElvisOperator\ElvisOperator.csproj", "{E71BBEB9-3D93-4E5E-A24B-E2983F1C88C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{6C14FA56-B8C3-4CAB-AC30-A0C9F315371A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{6C14FA56-B8C3-4CAB-AC30-A0C9F315371A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "CommandPattern\Command.csproj", "{18E09107-F573-4A8F-9EBC-2BC9B41D0823}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{6C14FA56-B8C3-4CAB-AC30-A0C9F315371A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C14FA56-B8C3-4CAB-AC30-A0C9F315371A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C14FA56-B8C3-4CAB-AC30-A0C9F315371A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E09107-F573-4A8F-9EBC-2BC9B41D0823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E09107-F573-4A8F-9EBC-2BC9B41D0823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E09107-F573-4A8F-9EBC-2BC9B41D0823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E09107-F573-4A8F-9EBC-2BC9B41D0823}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,6 +11,7 @@
     <ProjectReference Include="..\Bridge\Bridge.csproj" />
     <ProjectReference Include="..\Builder\Builder.csproj" />
     <ProjectReference Include="..\ChainOfResponsibility\ChainOfResponsibility.csproj" />
+    <ProjectReference Include="..\CommandPattern\Command.csproj" />
     <ProjectReference Include="..\CompositePattern\CompositePattern.csproj" />
     <ProjectReference Include="..\Decorator\Decorator.csproj" />
     <ProjectReference Include="..\ElvisOperator\ElvisOperator.csproj" />
