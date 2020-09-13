@@ -15,10 +15,6 @@ namespace DependecyInjection.Implementation
         {
             _dependencies.Add(new Dependency(typeof(T), DependecyLifetime.Singleton));
         }
-        public void AddScoped<T>()
-        {
-            _dependencies.Add(new Dependency(typeof(T), DependecyLifetime.Scoped));
-        }
         public void AddTransient<T>()
         {
             _dependencies.Add(new Dependency(typeof(T), DependecyLifetime.Transient));
