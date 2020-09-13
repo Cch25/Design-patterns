@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Middleware
+namespace Middleware.PipeBuild
 {
     public class PipeBuilder<T>
     {

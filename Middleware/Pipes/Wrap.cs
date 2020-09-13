@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Middleware.PipeBuild;
+using System;
 
-namespace Middleware
+namespace Middleware.Pipes
 {
     public class Wrap<T> : Pipe<T>
     {

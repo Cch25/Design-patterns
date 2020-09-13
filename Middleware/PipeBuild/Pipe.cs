@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Middleware
+namespace Middleware.PipeBuild
 {
     public abstract class Pipe<T>
     {
