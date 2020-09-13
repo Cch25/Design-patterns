@@ -7,6 +7,7 @@ using Decorator;
 using DependecyInjection;
 using ElvisOperator;
 using MapperPattern;
+using Middleware;
 using Proxy;
 using ServiceLocator;
 using StrategyPattern;
@@ -81,10 +82,17 @@ namespace DesignPatterns
             #endregion
 
             #region [ Dependecy Injection ] 
-            TestDI testDI = new TestDI();
-            testDI.TestDependecyInjection();
+            //TestDI testDI = new TestDI();
+            //testDI.TestDependecyInjection();
             #endregion
 
+            #region [ Middlewares ]
+            PipelineTest pt = new PipelineTest();
+            pt.PipeTest();
+            #endregion  
+            
+            
+            
             #endregion
         }
     }

@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "CommandPattern\C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapperPattern", "MapperPattern\MapperPattern.csproj", "{6D8CB67A-B2BE-4F09-800C-F718FF4FB475}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependecyInjection", "DependecyInjection\DependecyInjection.csproj", "{58BA149A-C303-44FA-A19B-003D9164899F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependecyInjection", "DependecyInjection\DependecyInjection.csproj", "{58BA149A-C303-44FA-A19B-003D9164899F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Middleware", "Middleware\Middleware.csproj", "{86E8888F-2DBD-4D3F-8428-83421A137914}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{58BA149A-C303-44FA-A19B-003D9164899F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58BA149A-C303-44FA-A19B-003D9164899F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58BA149A-C303-44FA-A19B-003D9164899F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E8888F-2DBD-4D3F-8428-83421A137914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E8888F-2DBD-4D3F-8428-83421A137914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E8888F-2DBD-4D3F-8428-83421A137914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E8888F-2DBD-4D3F-8428-83421A137914}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
