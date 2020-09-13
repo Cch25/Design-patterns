@@ -14,7 +14,9 @@
     <ProjectReference Include="..\CommandPattern\Command.csproj" />
     <ProjectReference Include="..\CompositePattern\CompositePattern.csproj" />
     <ProjectReference Include="..\Decorator\Decorator.csproj" />
+    <ProjectReference Include="..\DependecyInjection\DependecyInjection.csproj" />
     <ProjectReference Include="..\ElvisOperator\ElvisOperator.csproj" />
+    <ProjectReference Include="..\MapperPattern\MapperPattern.csproj" />
     <ProjectReference Include="..\Proxy\Proxy.csproj" />
     <ProjectReference Include="..\ServiceLocator\ServiceLocator.csproj" />
     <ProjectReference Include="..\StrategyPattern\StrategyPattern.csproj" />

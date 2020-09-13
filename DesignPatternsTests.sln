@@ -25,7 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElvisOperator", "ElvisOpera
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{6C14FA56-B8C3-4CAB-AC30-A0C9F315371A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "CommandPattern\Command.csproj", "{18E09107-F573-4A8F-9EBC-2BC9B41D0823}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "CommandPattern\Command.csproj", "{18E09107-F573-4A8F-9EBC-2BC9B41D0823}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapperPattern", "MapperPattern\MapperPattern.csproj", "{6D8CB67A-B2BE-4F09-800C-F718FF4FB475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependecyInjection", "DependecyInjection\DependecyInjection.csproj", "{58BA149A-C303-44FA-A19B-003D9164899F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{18E09107-F573-4A8F-9EBC-2BC9B41D0823}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18E09107-F573-4A8F-9EBC-2BC9B41D0823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18E09107-F573-4A8F-9EBC-2BC9B41D0823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D8CB67A-B2BE-4F09-800C-F718FF4FB475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D8CB67A-B2BE-4F09-800C-F718FF4FB475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D8CB67A-B2BE-4F09-800C-F718FF4FB475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D8CB67A-B2BE-4F09-800C-F718FF4FB475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BA149A-C303-44FA-A19B-003D9164899F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BA149A-C303-44FA-A19B-003D9164899F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BA149A-C303-44FA-A19B-003D9164899F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BA149A-C303-44FA-A19B-003D9164899F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

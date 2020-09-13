@@ -4,7 +4,9 @@ using ChainOfResponsibility;
 using Command.Command;
 using CompositePattern;
 using Decorator;
+using DependecyInjection;
 using ElvisOperator;
+using MapperPattern;
 using Proxy;
 using ServiceLocator;
 using StrategyPattern;
@@ -19,8 +21,8 @@ namespace DesignPatterns
             #region [ Composite pattern ]
             //CompositeDemo compositeDemo = new CompositeDemo();
             //compositeDemo.Build();
-
             #endregion
+
             #region [ Builder pattern ]
             //BuilderPattern builderPattern = new BuilderPattern();
             //builderPattern.BuildMachine();
@@ -69,6 +71,20 @@ namespace DesignPatterns
             #region [ Command pattern ]
             //CommandPattern commandPattern = new CommandPattern();
             //commandPattern.Command();
+            #endregion
+
+            #region [ Not GoF patterns ]
+
+            #region [ Mapper ]
+            //MapperExample me = new MapperExample();
+            //me.Map();
+            #endregion
+
+            #region [ Dependecy Injection ] 
+            TestDI testDI = new TestDI();
+            testDI.TestDependecyInjection();
+            #endregion
+
             #endregion
         }
     }
