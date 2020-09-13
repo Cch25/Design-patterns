@@ -25,22 +25,22 @@ namespace DependecyInjection.Implementation
             if (parameters.Length > 0)
             {
                 object[] parameterImplementations = new object[parameters.Length];
-                for(int i = 0; i < parameters.Length; i++)
+                for (int i = 0; i < parameters.Length; i++)
                 {
                     parameterImplementations[i] = GetService(parameters[i].ParameterType);
                 }
-                return CreateImplementation(dependecy, t => Activator.CreateInstance(t, parameterImplementations));
+                return CreateImplementation(dependecy, () => Activator.CreateInstance(dependecy.Type, parameterImplementations));
             }
-            return CreateImplementation(dependecy, t => Activator.CreateInstance(t));
+            return CreateImplementation(dependecy, () => Activator.CreateInstance(dependecy.Type));
         }
 
-        private object CreateImplementation(Dependency dependecy, Func<Type, object> factory)
+        private object CreateImplementation(Dependency dependecy, Func<object> factory)
         {
             if (dependecy.Implemented)
             {
                 return dependecy.Implementation;
             }
-            object implementation = factory(dependecy.Type);
+            object implementation = factory();
             if (dependecy.DependecyLifetime == DependecyLifetime.Singleton)
             {
                 dependecy.AddImplementation(implementation);
