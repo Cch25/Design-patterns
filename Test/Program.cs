@@ -6,6 +6,7 @@ using CompositePattern;
 using Decorator;
 using DependecyInjection;
 using ElvisOperator;
+using IteratorExample;
 using MapperPattern;
 using Middleware;
 using Proxy;
@@ -87,12 +88,15 @@ namespace DesignPatterns
             #endregion
 
             #region [ Middlewares ]
-            PipelineTest pt = new PipelineTest();
-            pt.PipeTest();
-            #endregion  
-            
-            
-            
+            //PipelineTest pt = new PipelineTest();
+            //pt.PipeTest();
+            #endregion
+
+            #region [ Iterator Pattern ]
+            IteratorPattern iterator = new IteratorPattern();
+            iterator.TestIterator();
+            #endregion
+
             #endregion
         }
     }

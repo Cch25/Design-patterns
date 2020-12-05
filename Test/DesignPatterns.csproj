@@ -16,6 +16,7 @@
     <ProjectReference Include="..\Decorator\Decorator.csproj" />
     <ProjectReference Include="..\DependecyInjection\DependecyInjection.csproj" />
     <ProjectReference Include="..\ElvisOperator\ElvisOperator.csproj" />
+    <ProjectReference Include="..\Iterator\Iterator.csproj" />
     <ProjectReference Include="..\MapperPattern\MapperPattern.csproj" />
     <ProjectReference Include="..\Middleware\Middleware.csproj" />
     <ProjectReference Include="..\Proxy\Proxy.csproj" />
